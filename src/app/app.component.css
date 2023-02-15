@@ -1,0 +1,21 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 20%;
+    background-color: #fe5a5a;
+}
+
+.cuadrado{
+    height: 100px;
+    width: 100px;
+    background-color: #5a5a5a;
+}
+
+.red{
+    background-color: #fe5a5a;
+}
+
+.blue{
+    background-color: #002fff;
+}
