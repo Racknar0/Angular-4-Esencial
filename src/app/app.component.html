@@ -2,6 +2,17 @@
   {{ title }}
 </h1>
 
+<!-- ngFor -->
+<ul>
+  <!-- iterar sobre libros.t -->
+  <li *ngFor="let l of libros" > 
+    <a (click)="mostrarAutor()" target="_blank" >{{ l }}</a>
+  </li>
+</ul>
+
+<br>
+<br>
+<hr>
 <!-- ngStyle -->
 <!-- ngClass -->
 <div class="cuadrado" [ngStyle]="{ 'background-color': colorStyle ? colorStyle : 'peru' }">
